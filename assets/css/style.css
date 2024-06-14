@@ -1,4 +1,3 @@
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,16 +6,30 @@
   font-family:"Verdana", sans-serif;
 }
 
+
+
 body {
   background: rgb(2,0,36);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(194,0,0,1) 100%, rgba(0,212,255,1) 100%);
 }
 
+.one-piece {
+width: 10%;
+  
+}
 
+.main-content {
+  width: 125%;
+  padding-top: 100px;
+  margin-left: 3rem;
+  display: flex;
+  align-items: center;
+ 
+  }
 
-.luffy {
-  width: 20%;
-   }
+  .mina-content, .main-text {
+    flex-basis: 50%;
+  }
 
 
   
@@ -27,7 +40,7 @@ body {
   flex-direction: column;}
 
 
-h3 {
+h3.subtitle {
     font-size: clamp(1rem, 1.5rem, 2rem );
     font-weight: 100;
     letter-spacing: clamp(.3rem, 1rem, 1.3rem);
@@ -35,7 +48,7 @@ h3 {
   }
 
 h1.title {
-    font-size: clamp(2rem, 3rem, 4rem);
+    font-size: 50px;
     margin-bottom: 2rem;
   }
 
@@ -80,6 +93,7 @@ border: 2px solid #555555;
 background-color: #555555;
 color: white;
 }
+
 
 
 
