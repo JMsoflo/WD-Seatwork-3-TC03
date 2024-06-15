@@ -9,7 +9,7 @@
     
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">TitleSeatwork 3: Headers and Footers Display Website</h3>
+  <h3 align="center">Title Seatwork 3: Headers and Footers Display Website</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
